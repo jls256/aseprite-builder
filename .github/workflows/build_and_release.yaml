@@ -52,7 +52,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
         matrix:
-          os: [ linux-latest ]
+          os: [ Linux ]
         fail-fast: false
     steps:
       - name: Install Dependencies
